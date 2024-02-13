@@ -1,0 +1,86 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brush-selection {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paint {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.palette {
+  display: flex;
+  margin-left: -30px;
+}
+
+.brush {
+  display: flex;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.current-brush, .palette-color {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.canvas {
+  display: grid;
+  grid-template-rows: repeat(25, 1fr);
+  grid-template-columns: repeat(25, 1fr);
+  height: 600px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.square {
+  transition: 0.5s;
+}
+
+.color-1 {
+  background-color: rgb(28, 66, 88);
+}
+
+.color-2 {
+  background-color: rgb(200, 66, 42);
+}
+
+.color-3 {
+  background-color: rgb(96, 140, 96);
+}
+
+.color-4 {
+  background-color: rgb(220, 220, 111);
+}
+
+.color-5 {
+  background-color: whitesmoke;
+}
+
+.color-6 {
+  background-color: black;
+}
